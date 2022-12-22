@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../VS/image"
+		},
+		{
+			"path": "../VS/CSS"
+		}
+	],
+	"settings": {}
+}

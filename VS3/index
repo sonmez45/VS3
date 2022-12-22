@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <title>Deneme</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Deneme Sitesi</h1>
+        <p>© Tüm Hakları Saklıdır.</p>
+    </div>
+    <div class="navigation">
+        <a href="#">Ana Sayfa</a>
+        <a href="#">Ürünler</a>
+        <a href="#">Iletisim</a>
+        <a href="#">Hakkimizda</a>
+    </div>
+    <div class="products">
+        <div class="car">
+            <img class="car-image" src="./images/araba1.jpg" alt="">
+            <p class="car-information">Araba tertemiz. Vurugu kirigi 
+                yok. Boyasiz. Sadece ciddi alicilar iletisime gecsin.
+                asdasdasf,mdfn,samdfnasf aksndlaksdlasd laskdlaksdmal</p>
+            <p class="car-price">Fiyat : 150.0000 $</p>
+        </div>
+        <div class="car">
+            <img class="car-image" src="./images/araba2.jpg" alt="">
+            <p class="car-information">Doktordan temiz. Degiseni yok. Sadece ciddi alicilar iletisime gecsin.</p>
+            <p class="car-price">Fiyat : 200.0000 $</p>
+        </div>
+        <div class="car">
+            <img class="car-image" src="./images/araba2.jpg" alt="">
+            <p class="car-information">Doktordan temiz. Degiseni yok. Sadece ciddi alicilar iletisime gecsin.</p>
+            <p class="car-price">Fiyat : 200.0000 $</p>
+        </div>
+        <div class="car">
+            <img class="car-image" src="./images/araba2.jpg" alt="">
+            <p class="car-information">Doktordan temiz. Degiseni yok. Sadece ciddi alicilar iletisime gecsin.</p>
+            <p class="car-price">Fiyat : 200.0000 $</p>
+        </div>
+        <div class="car">
+            <img class="car-image" src="./images/araba2.jpg" alt="">
+            <p class="car-information">Doktordan temiz. Degiseni yok. Sadece ciddi alicilar iletisime gecsin.</p>
+            <p class="car-price">Fiyat : 200.0000 $</p>
+        </div>
+        <div class="car">
+            <img class="car-image" src="./images/araba1.jpg" alt="">
+            <p class="car-information">Araba tertemiz. Vurugu kirigi 
+                yok. Boyasiz. Sadece ciddi alicilar iletisime gecsin.
+                asdasdasf,mdfn,samdfnasf aksndlaksdlasd laskdlaksdmal</p>
+            <p class="car-price">Fiyat : 150.0000 $</p>
+        </div>
+        <div class="car">
+            <img class="car-image" src="./images/araba2.jpg" alt="">
+            <p class="car-information">Doktordan temiz. Degiseni yok. Sadece ciddi alicilar iletisime gecsin.</p>
+            <p class="car-price">Fiyat : 200.0000 $</p>
+        </div>
+        <div class="car">
+            <img class="car-image" src="./images/araba2.jpg" alt="">
+            <p class="car-information">Doktordan temiz. Degiseni yok. Sadece ciddi alicilar iletisime gecsin.</p>
+            <p class="car-price">Fiyat : 200.0000 $</p>
+        </div>
+    </div>
+</body>
+</html>
+3:58
+body{
+    background-color: grey;
+}
+
+.header h1 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.header p {
+    font-size: smaller;
+    position: absolute;
+    right: 5px;
+    margin: 2px;
+}
+
+.navigation a{
+    box-shadow: grey;
+    color: black;
+    text-decoration: none;
+    margin-inline: 5px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.car-image {
+    width: 200px;
+    border: 6px solid black;
+    border-radius: 5px;
+}
+
+.car {
+    width: 250px;
+    text-align: center;
+}
+
+.car-information {
+    font-family: calibri;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
